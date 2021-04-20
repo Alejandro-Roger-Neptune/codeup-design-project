@@ -1,23 +1,46 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+
+h1, h2, div{
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+}
+
+.topRow {
+    margin-bottom: 2em;
+}
+
 .circleRed {
     height: 150px;
     width: 150px;
     background-color: #E6563B;
     border-radius: 50%;
+    margin-right: 2em;
+
+
 }.circleYellow {
     height: 150px;
     width: 150px;
     background-color: #EB9D3A;
     border-radius: 50%;
+
 }.circleGreen {
     height: 150px;
     width: 150px;
     background-color: #7CB06C;
     border-radius: 50%;
+    margin-right: 2em;
+
 }.circleBlue {
     height: 150px;
     width: 150px;
     background-color: #00ABA9;
     border-radius: 50%;
+
 }
 
 .bigBox {
@@ -36,10 +59,26 @@ div {
 
 }
 
+.title {
+    margin-bottom: 2em;
+}
+
+.lastRow {
+    margin-top:0;
+    padding-right:15px;
+}
+
+div {
+    margin: 0;
+}
 .apple {
     padding: 0px !important;
     border: #E6E6E6 solid 10px;
     border-radius: 5%;
+    margin-bottom: .5em !important;
+}
+.imageRow {
+    margin: 2em 0;
 }
 
 .circleRedicon {
@@ -47,34 +86,44 @@ div {
     width: 18px;
     background-color: #E6563B;
     border-radius: 50%;
+    margin: .5em;
 
 }.circleYellowicon {
     height: 18px;
     width: 18px;
     background-color: #EB9D3A;
     border-radius: 50%;
+     margin: .5em;
 
 }.circleGreenicon {
     height: 18px;
     width: 18px;
     background-color: #7CB06C;
     border-radius: 50%;
+    margin: .5em;
 
 }.circleBlueicon {
     height: 18px;
     width: 18px;
     background-color: #00ABA9;
     border-radius: 50%;
+       margin: .5em;
 }
+
+ .addingSpace {
+     margin-left: 15px;
+     margin-right: auto;
+ }
 
 .letters2 {
     /*background-color: slateblue;*/
     color: black;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: bolder;
 
+
 }
 
-.project {
-    font-size: 18px;
-}
+/*.project {*/
+/*    font-size: 18px;*/
+/*}*/
