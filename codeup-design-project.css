@@ -1,0 +1,37 @@
+.circleRed {
+    height: 150px;
+    width: 150px;
+    background-color: #E6563B;
+    border-radius: 50%;
+}.circleYellow {
+    height: 150px;
+    width: 150px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+}.circleGreen {
+    height: 150px;
+    width: 150px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+}.circleBlue {
+    height: 150px;
+    width: 150px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+}
+
+.bigBox {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin: 1em;
+}
+
+.letters {
+    /*background-color: slateblue;*/
+    color: whitesmoke;
+    font-size: 32px;
+
+}
