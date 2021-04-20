@@ -35,3 +35,46 @@ div {
     font-size: 32px;
 
 }
+
+.apple {
+    padding: 0px !important;
+    border: #E6E6E6 solid 10px;
+    border-radius: 5%;
+}
+
+.circleRedicon {
+    height: 18px;
+    width: 18px;
+    background-color: #E6563B;
+    border-radius: 50%;
+
+}.circleYellowicon {
+    height: 18px;
+    width: 18px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+
+}.circleGreenicon {
+    height: 18px;
+    width: 18px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+
+}.circleBlueicon {
+    height: 18px;
+    width: 18px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+}
+
+.letters2 {
+    /*background-color: slateblue;*/
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+
+}
+
+.project {
+    font-size: 18px;
+}
