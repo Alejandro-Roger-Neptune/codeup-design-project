@@ -19,7 +19,7 @@ h1, h2, div{
     width: 150px;
     background-color: #E6563B;
     border-radius: 50%;
-    margin-right: 2em;
+    /*margin: 1em !important;*/
 
 
 }.circleYellow {
@@ -27,19 +27,21 @@ h1, h2, div{
     width: 150px;
     background-color: #EB9D3A;
     border-radius: 50%;
+     /*margin: 1em !important;*/
 
 }.circleGreen {
     height: 150px;
     width: 150px;
     background-color: #7CB06C;
     border-radius: 50%;
-    margin-right: 2em;
+      /*margin: 1em !important;*/
 
 }.circleBlue {
     height: 150px;
     width: 150px;
     background-color: #00ABA9;
     border-radius: 50%;
+       /*margin: 1em !important;*/
 
 }
 
@@ -66,6 +68,11 @@ div {
 .lastRow {
     margin-top:0;
     padding-right:15px;
+}
+
+.theLogo {
+    height:105px;
+    width:105px;
 }
 
 div {
